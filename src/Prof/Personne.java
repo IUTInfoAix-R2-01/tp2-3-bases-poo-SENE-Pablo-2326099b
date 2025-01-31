@@ -10,7 +10,7 @@ public class Personne {
 	}
 	
 	public Personne(String Prenom) {
-		this.Prenom = nom;
+		this.Prenom = Prenom;
 		this.nom = "";
 	}
 	
@@ -31,7 +31,7 @@ public class Personne {
 		if(nom.length()== 0) {
 			return this.Prenom;
 		}
-		return this.nom + "" + this.Prenom;
+		return this.nom + " " + this.Prenom;
 	}
 	
 }
